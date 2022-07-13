@@ -1,0 +1,131 @@
+/* Universal */
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Import & font */
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,400;0,700;0,900;1,100&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
+
+body{
+    font-family: 'Noto Sans', sans-serif;
+}
+
+
+/* Header */
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header h1{
+    font-variant: small-caps;
+    font-weight: 900;
+}
+
+header h2{
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: 'Satisfy', cursive;
+}
+
+.encabezado{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 0.2rem solid gray;
+    height: 7.5rem;
+
+}
+
+.title{
+    display: block;
+    margin-left: 0;
+}
+
+#busqueda{
+    width: 30%;
+    height: 50%;
+    padding: 1rem;
+    border: 1px solid #ced4da;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.input{
+    padding: 1rem;
+    width: 90%;
+    height: 20%;
+    border: none;
+
+}
+
+#busqueda, .input{
+    background-color: #dee2e6;
+}
+
+.input:focus{
+    border: none;
+    outline: none;
+}
+
+#login a{
+    margin-left: 2rem;
+    text-decoration: none;
+    color: black;
+}
+
+
+/* Images */
+
+#logo{
+    width: 15%;
+    float: left;
+}
+
+#login{
+    background-image: url(../assets/icon/user-black.png); 
+    background-repeat: no-repeat; 
+}
+
+/* Navigation */
+nav{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 0 1rem 1rem 1rem;
+}
+
+nav a:hover{
+    color: white;
+    background-color: #0096C7;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.menu li{
+    margin-right: 2rem;
+}
+
+.active{
+    color: white;
+    background-color: #0096C7;
+}
+
+
