@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>¿Donde me atiendo?</title>
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/main.css">
 </head>
 <body>
     <header>
@@ -16,8 +16,6 @@
                 <h1>¿Dónde me atiendo?</h1>
                 <h2>Guía de hospitales públicos de CABA</h2>
             </div>
-
-
 
             <div id="busqueda">
                 <input class="input" type="Buscar..." placeholder="Buscar...">
@@ -31,9 +29,17 @@
 
         </div>
         <nav>
-            <ul class="menu ">
+            <ul class="menu-horizontal">
                 <li><a href="#" class="active">Inicio</a></li>
-                <li><a href="#">Hospitales</a></li>
+                <li>
+                    <a href="#">Hospitales</a>
+                    <ul class="menu-vertical">
+                        <li><a href="">Zona Norte</a></li>
+                        <li><a href="">Zona Sur</a></li>
+                        <li><a href="">Zona Oeste</a></li>
+                        <li><a href="">Zona Este</a></li>
+                    </ul>
+                </li>
                 <li><a href="#">Contacto</a></li>
                 <li><a href="#">Quienes somos</a></li>
             </ul>
