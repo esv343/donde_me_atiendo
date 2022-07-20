@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>¿Donde me atiendo?</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/813cbe3664.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
@@ -29,25 +31,81 @@
             </div>
 
         </div>
+        
 
-       <!-- <nav>
+       <nav>
             <ul class="menu-horizontal">
                 <li><a href="#" class="active">Inicio</a></li>
                 <li>
                     <a href="/secciones/hospitales.html">Hospitales</a>
-                    <ul class="menu-vertical">
+                    <!-- <ul class="menu-vertical">
+                     
                         <li><a href="">Zona Norte</a></li>
                         <li><a href="">Zona Sur</a></li>
                         <li><a href="">Zona Oeste</a></li>
                         <li><a href="">Zona Este</a></li>
-                    </ul>
+                        
+                    </ul> -->
                 </li>
                 <li><a href="#">Contacto</a></li>
                 <li><a href="#">Quienes somos</a></li>
             </ul>
-        </nav> -->
+        </nav> 
 
         
     </header>
+    <main>
+        <!------------------------DESDE ACA SE PUEDEN CAMBIAR IMAGENES QUE PREFIERAN----------------->
+           <div id="conteItemsCarrusel">
+           <div class="carrusel" id="carrusel1">
+               <div class="tarjetaCarrusel" id="tarjeta1" class ="img-fluid">
+                   <img src="/assets/img/img1.jpg" alt="">
+               </div>
+               <div class="flechasCarrusel">
+                   <a href="#carrusel3">
+                       <i class="fa-solid fa-angle-left"></i>
+                   </a>
+                   <a href="#carrusel2">
+                       <i class="fa-solid fa-chevron-right"></i>
+                   </a>
+       
+       
+               </div>
+           </div>
+       <div class="carrusel" id="carrusel2">
+           <div class="tarjetaCarrusel" id="tarjeta2" class ="img-fluid">
+               <img src="/assets/img/img2.webp" alt="">
+           </div>
+           <div class="flechasCarrusel">
+               <a href="#carrusel1">
+                   <i class="fa-solid fa-angle-left"></i>
+               </a>
+               <a href="#carrusel3">
+                   <i class="fa-solid fa-chevron-right"></i>
+               </a>
+       
+       
+       
+           </div>
+       </div>
+       <div class="carrusel" id="carrusel3">
+           <div class="tarjetaCarrusel" id="tarjeta3">
+               <img src="/assets/img/img3.png" alt="" class ="img-fluid">
+           </div>
+           <div class="flechasCarrusel">
+               <a href="#carrusel2">
+                   <i class="fa-solid fa-angle-left"></i>
+               </a>
+               <a href="#carrusel1">
+                   <i class="fa-solid fa-chevron-right"></i>
+               </a>
+       
+       
+       
+           </div>
+           
+
+
+    </main>
 </body>
 </html>
