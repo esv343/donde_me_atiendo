@@ -1,5 +1,5 @@
+/* Estilos de Quienes Somos */
 .quienes-somos{
-    /* background-image: linear-gradient(to bottom, #0077B6, #90E0EF); */
     text-shadow:#eee;
     text-align: center;
     
@@ -28,6 +28,7 @@
     box-shadow: 0 0 1rem #333;
    
 }
+
 .social_linkedin :hover {
     margin-top: 1rem;
     margin-bottom: 1rem;
