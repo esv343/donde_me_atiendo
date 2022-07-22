@@ -1,0 +1,40 @@
+/* Estilos de Quienes Somos */
+.quienes-somos{
+    text-shadow:#eee;
+    text-align: center;
+    
+}
+
+#quienes{
+    padding: 1.5rem;
+    
+}
+
+/* Fotos del equipo */    
+
+#nosotros{
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(min(100%, 250px), 1fr));
+ gap: .5rem;
+ 
+}
+
+.perfiles{
+    width:12rem;
+    height:12rem;
+    margin: 1rem;
+    border-radius:6rem;
+    /* border:0.1rem solid #333; */
+    box-shadow: 0 0 1rem #333;
+   
+}
+
+.social_linkedin :hover {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    transform: scale(1.1);
+}
+
+#logo-pescar{
+    padding: 5rem;
+}
