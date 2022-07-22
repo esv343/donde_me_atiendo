@@ -59,6 +59,7 @@ header h2{
 }
 
 #login a{
+    padding: 0 1rem 0 0 ;
     margin-left: 2rem;
     text-decoration: none;
     color: black;

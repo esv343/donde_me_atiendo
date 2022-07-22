@@ -1,4 +1,4 @@
-#conteItemsCarrusel{
+/* #conteItemsCarrusel{
     
     height : 200px; 
     overflow: hidden;
@@ -47,6 +47,9 @@ a {
 
 i {
     color: white
+} */
+.carousel-item img{
+    height: 410px;
 }
 
 /* MAIN DAY Parte de contenedor con las 3 imagenes */
