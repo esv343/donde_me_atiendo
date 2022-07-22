@@ -11,6 +11,9 @@
 /* Header */
 @import url(./header.css);
 
+/* Quienes somos */
+@import url(./quienesSomos.css);
+
 /* Content */
 @import url(./content.css);
 
